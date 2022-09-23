@@ -103,7 +103,7 @@ h2 {
 
   .landing .box .text {
     left: 0;
-    transform: translateX(0);
+    transform: translateX(15%);
     justify-content: flex-start;
     order: 2;
   }
