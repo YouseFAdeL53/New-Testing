@@ -113,7 +113,7 @@ h2 {
 
   .landing .box .text {
     left: 0;
-    transform: translate(0%, 15%);
+    transform: translate(0%, 10%);
     justify-content: flex-start;
     order: 2;
   }
@@ -276,8 +276,8 @@ h2 {
   .text-arab {
     text-align: center;
     right: 0;
-    transform: translateY(-36%);
-    justify-content: flex-end;
+    transform: translateY(13%);
+    justify-content: flex-start;
   }
 
   .text-arab h2 {
@@ -612,7 +612,7 @@ h2 {
 .services .text h4 {
   color: var(--text-color);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 5px;
 }
 
