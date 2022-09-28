@@ -23,21 +23,25 @@
   <link rel="stylesheet" href="CSS/normalize.css">
   <!-- External File CSS -->
   <link rel="stylesheet" href="CSS/style.css">
-  <title>Shark | Project</title>
+  <title>SHARK | SOFT</title>
 </head>
 
 <body>
   <!-- Loader -->
-  <!-- <div id="load" class="load">
+  <div id="load" class="load">
     <span class="loader"></span>
-  </div> -->
+  </div>
   <!-- End Loader -->
+  <!-- Start Audio -->
+    <audio id="startAudio" src="audio/الفاتحة.mp3"></audio>
+  <!-- End Audio -->
   <!-- Start Landing -->
   <div class="landing">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <div class="box d-flex align-item-center justify-content-between">
+            <div class="overlay" id="particles-js"></div>
             <div class="text">
               <h2 class="wow bounceInLeft" data-wow-duration="1s">Welcome To,<span>Shark Soft</span></h2>
               <ul>
@@ -73,6 +77,7 @@
         </div>
         <div class="carousel-item" data-bs-interval="10000">
           <div class="box d-flex align-item-center justify-content-between">
+            <div class="overlay" id="snow-fall"></div>
             <div class="image">
               <img class="wow bounceInLeft" data-aos-duration="0.5s" src="image/landing-image/carusel - 3.png" alt="">
             </div>
@@ -146,10 +151,10 @@
             <a class="nav-link" href="#services">Servcies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" href="#news">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Parteners</a>
+            <a class="nav-link" href="#parteners">Parteners</a>
           </li>
         </ul>
       </div>
@@ -858,7 +863,7 @@
     <!-- End Contact Us -->
   </div>
   <!-- Start News -->
-  <div class="news pt-4 pb-4">
+  <div class="news pt-4 pb-4" id="news">
     <div class="owl-carousel">
       <div> <span>NEWS</span> </div>
       <div> <span><strong>NEWS</strong></span> </div>
@@ -914,7 +919,7 @@
   </div>
   <!-- End News -->
   <!-- Start Parteners -->
-  <div class="parteners">
+  <div class="parteners" id="parteners">
     <h2 class="main-tiitle">شركاؤنا</h2>
     <div class="container">
       <!-- Swiper -->
@@ -1224,10 +1229,11 @@
       owl.trigger('stop.owl.autoplay')
     })
   </script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
+  <!-- Testing -->
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
   <!-- External File Js -->
   <script src="js/main.js"></script>
   <!-- Wow Animation -->
