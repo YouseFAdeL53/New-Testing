@@ -4,7 +4,7 @@ $(document).ready(function () {
   });
   $(".num").counterUp({
     delay: 10,
-    time: 5000 
+    time: 2000 
   })
 });
 
