@@ -1273,6 +1273,7 @@ h2 {
   text-align: center;
   margin: 40px;
   color: #fff;
+  line-height: 1.6;
 }
 
 .contact #close {
@@ -1295,6 +1296,7 @@ h2 {
   margin: 10px 15px;
   border-radius: 6px;
   outline: none;
+  direction: rtl;
   border: 1px solid rgba(0, 0, 0, 0.15);
   caret-color: var(--secondary-color);
 }
@@ -1304,6 +1306,7 @@ h2 {
   width: 90%;
   height: 145px;
   outline: none;
+  direction: rtl;
   padding: 10px 15px;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.15);
