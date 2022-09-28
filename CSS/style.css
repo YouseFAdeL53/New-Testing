@@ -1215,7 +1215,7 @@ h2 {
   top: 74px;
   height: 90%;
   z-index: 99999;
-  transform: translateY(100%);
+  transform: translateY(200%);
   transition: var(--main-transation);
 }
 
